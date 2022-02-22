@@ -5,9 +5,6 @@ function Layout(props) {
     <div>
       <MainNavigation />
       <div className={classes.main}>{props.children}</div>
-      {/* <main>
-                {props.children}
-            </main> */}
     </div>
   );
 }
