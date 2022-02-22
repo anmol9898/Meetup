@@ -1,0 +1,39 @@
+header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  background-color: brown;
+  padding: 0 10%;
+}
+header nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: baseline;
+}
+header nav ul li {
+  margin-left: 3rem;
+  list-style: none;
+  text-decoration: none;
+  padding: 0 1rem;
+  font-weight: 700;
+}
+/* header nav ul Link{
+    text-decoration: none;
+} */
+header a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fcb8d2;
+}
+header a:hover,
+header a:active,
+header a.active {
+  color: white;
+}
+header > div {
+  user-select: none;
+}
